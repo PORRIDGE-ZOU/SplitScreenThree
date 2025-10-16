@@ -1,0 +1,69 @@
+# Unreal Engine / Visual Studio / common ignores
+
+# Project build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Editor and IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.VC.db
+*.VC.opendb
+
+# Compiled object / binary files
+*.obj
+*.o
+*.dll
+*.lib
+*.exe
+*.app
+*.dylib
+*.so
+*.pdb
+
+# Xcode / macOS
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata/
+*.xcarchive
+.DS_Store
+
+# Logs, crash dumps, autosaves
+*.log
+*.stackdump
+*.crash
+*.autosave
+
+# Packaging outputs
+*.apk
+*.aab
+*.ipa
+
+# Generated source files / intermediate generated assets
+*.generated.*
+*.iobj
+*.ipch/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Ignore per-user or machine-specific config in Saved
+Saved/Config/**/EditorPerProjectUserSettings.ini
+Saved/Config/**/EditorPerProjectUserSettings-*.ini
+
+# Misc
+.vagrant/
+node_modules/
+
+# Keep Source and Content tracked (do not ignore)
+# (No explicit negation necessary unless more specific rules are added above)
